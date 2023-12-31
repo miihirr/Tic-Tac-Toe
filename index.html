@@ -17,20 +17,42 @@
         </div>
         <div class="main">
             <div class="left">
-                <div class="firstOption">
-                    <button class="btn1"> &nbsp;Player1 <span>&nbsp;&nbsp;&nbsp;</span> VS <span>&nbsp;&nbsp;</span> Computer</button>
+                <div class="leftA">
+                    <div class="firstOption">
+                        <button class="btn1" id="btn1"> &nbsp;Player1 <span>&nbsp;&nbsp;&nbsp;</span> VS <span>&nbsp;&nbsp;</span>
+                            Computer</button>
+                    </div>
+                    <div class="secondOption">
+                        <button class="btn1" id="btn2">Player1 <span>&nbsp;&nbsp;&nbsp;</span> VS
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Player2</button>
+                    </div>
                 </div>
-                <div class="secondOption">
-                    <button class="btn1">Player1 <span>&nbsp;&nbsp;&nbsp;</span> VS <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Player2</button>
+                <div class="leftBoption1">
+                    <div class="controls" style="display: none;" id="optionA">
+                        <p><label for="player1Name">Player1 Name : </label>
+                            <input type="text" id="player1Name">
+                        </p>
+                        <p><label for="player2Name">Player2 Name : </label>
+                            <input type="text" id="player2Name">
+                        </p>
+                    </div>
+                    <div class="controls" style="display: none;" id="optionB">
+                        <p><label for="player1Name">Player1 Name : </label>
+                            <input type="text" id="player1Name">
+                        </p>
+                    </div>
+                    <div class="btn-s">
+                        <button class="start btn">Start</button>
+                        <button class="reset btn">Reset</button>
+                    </div>
                 </div>
             </div>
-            <div class="right">
-                <p>P</p>
+            <div class="rightSide">
+
             </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
-
-
