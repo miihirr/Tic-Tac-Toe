@@ -35,4 +35,4 @@ No installation is required. Simply open the `index.html` file in a browser.
 - JavaScript (Vanilla JS)
 
 
-This project is open-source and available under the [MIT License](LICENSE).
+
